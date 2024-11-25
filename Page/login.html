@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../Img/pipoca.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./login.css">
+    <title>FilmsFans</title>
+</head>
+<body>
+    <nav class="menu">
+        <div class="logo">
+            <a href="../index.html"><img src="../Img/pipoca.png" alt="Logo"></a>
+            <h3>FilmsFans</h3>
+        </div>
+        <div class="login">
+            <a href="#">Login</a>
+            <i class='bx bx-user'></i>
+        </div>
+    </nav>
+    <div class="registro">
+        <div class="card">
+            <h1>Login</h1>
+            <div class="info">
+                <input type="email" name="email" placeholder="Digite seu email" id="email">
+                <input type="password" name="senha" placeholder="Digite sua senha" id="senha">
+            </div>
+            <div class="lembre">
+                <label for="#"><input type="checkbox">Lembre-se</label>
+                <a href="#">Esqueceu a senha?</a>
+            </div>
+            <button onclick="cadastro()">Cadastre-se</button>
+            <div class="conta">
+                <p>Você jé tem uma conta?</p>
+                <a href="#">Registre-se</a>
+            </div>
+        </div>
+    </div>
+    <script src="./login.js"></script>
+</body>
+</html>
