@@ -181,3 +181,37 @@ body{
     color: var(--white);
     font-size: 20px;
 }
+
+/*-----Trailer-----*/
+.trailer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--gray);
+}
+
+.card{
+    width: 70%;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: var(--green);
+    box-shadow: 0px 10px 15px 0px var(--black);
+}
+
+.card h1, p{
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+/*-----Copyright-----*/
+.copyright{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--green);
+}
