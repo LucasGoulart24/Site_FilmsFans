@@ -215,3 +215,35 @@ body{
     justify-content: center;
     color: var(--green);
 }
+
+/*-----Responsivo-----*/
+@media screen and (max-width: 768px) {
+    .principal h1{
+        font-size: 40px;
+    }
+
+    .principal p{
+        width: 90%;
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .buscar{
+        width: 90%;
+    }
+
+    .filme{
+        width: 98%;
+    }
+
+    .card{
+        width: 90%;
+        padding: 5px;
+    }
+
+    iframe{
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+    }
+}
